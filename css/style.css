@@ -5,6 +5,7 @@ body {
 	background-position: top center;
 	color: white;
 	font-family: 'Roboto', sans-serif;
+	background-size: 100%;
 }
 .container {
 	max-width: 1140px;
@@ -203,7 +204,11 @@ body {
 	justify-content: space-between;
 }
 .tabs-content {
+	display: none;
 	margin-right: 70px;
+}
+.visible {
+	display: block;
 }
 .tabs {
 	display: flex;
@@ -266,14 +271,14 @@ object-fit: cover;
 
 @media (max-width: 1200px) {
 	.container {
-		min-width: 960px;
+		min-width: 920px;
 	}
 	.tabs-item {
 		font-size: 16px;
 	}
 }
 
-@media (max-width: 920px) {
+@media (max-width: 960px) {
 	.container {
 		min-width: 740px;
 	}
@@ -304,7 +309,10 @@ object-fit: cover;
 
 @media (max-width: 768px) {
 	.container {
-			min-width: 540px;
+			min-width: 480px;
+	}
+	.body {
+		background-size: auto;
 	}
 	.more {
 		display: none;
@@ -320,10 +328,14 @@ object-fit: cover;
 	}
 }
 
-@media (max-width: 578px) {
+@media (max-width: 500px) {
 
 	.container {
-		width: 90%;
+		min-width: 300px;
+	}
+	.body {
+		background-size: 100%;
+		background-position-x: center;
 	}
 	.header {
 		flex-wrap: wrap;
@@ -363,4 +375,14 @@ object-fit: cover;
 	.button {
 		width: 100%;
 	}
-}
+
+	@media (max-width: 320px) {
+
+		.container {
+			width: 90%;
+		}
+		.poster {
+			width: auto;
+			height: auto;
+		}
+	}
