@@ -331,7 +331,7 @@ object-fit: cover;
 @media (max-width: 500px) {
 
 	.container {
-		min-width: 300px;
+		min-width: 90%;
 	}
 	.body {
 		background-size: 100%;
