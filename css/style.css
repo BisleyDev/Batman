@@ -283,7 +283,7 @@ object-fit: cover;
 		min-width: 740px;
 	}
 	.tabs {
-		flex-wrap: wrap;		l
+		flex-wrap: wrap;	
 	}
 	.tabs-item {
 		flex-basis: 20%;
@@ -375,9 +375,9 @@ object-fit: cover;
 	.button {
 		width: 100%;
 	}
+}
 
 	@media (max-width: 320px) {
-
 		.container {
 			width: 90%;
 		}
