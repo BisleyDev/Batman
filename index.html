@@ -1,131 +1,174 @@
 <!DOCTYPE html>
 <html lang="ru">
-   
+	
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Batman 2021 - станица о фильме</title>
-   <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic" rel="stylesheet">
-   <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
-   <link rel="stylesheet" href="./css/animate.css">
-   <link rel="stylesheet" href="./css/style.css">
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Batman 2021 - станица о фильме</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="./css/animate.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 </head>
 <body>
-   <div class="container">
-      <header class="header">
-         <div class="logo">КиноПульс</div>
-         <form action="" class="search">
-            <input type="search" class="search-input" placeholder="Фильмы, сериалы, актеры">
-            <button type="search" class="search-button">
-               <img src="img/search-icon.svg" alt="search-icon">
-            </button>
-         </form>
-         <div class="user">
-            <img src="img/bookmark.svg" alt="bookmark">
-            <img class="avatar" src="./img/avatar.jpg" alt="avatar" >
-         </div>
-      </header>
-      <main class="main">
-         <h1 class="title animated fadeInRight delay-1s">Бэтмен</h1>
-         <small class="title-en animated fadeInRight">The Batman</small>
-         <div class="info">
-            <div class="movie-info animated fadeInUp delay-2s">
-               <span class="tag">Фильм</span>
-               <span class="contry">США 2021 год</span>
-               <a data-fancybox href="https://www.youtube.com/watch?v=8SOyHktrjGE" class="play">Смотреть трейлер</a>
-            </div>
-            <a href="#" class="more">Подробней</a>
-         </div>
+	<div class="container">
+		<header class="header">
+			<div class="logo">ФильмОк</div>
+			<form action="" class="search">
+				<input type="search" class="search-input" placeholder="Фильмы, сериалы, актеры">
+				<button type="search" class="search-button">
+					<img src="img/search-icon.svg" alt="search-icon">
+				</button>
+			</form>
+			<div class="user">
+				<img src="img/bookmark.svg" alt="bookmark">
+				<img class="avatar" src="./img/avatar.jpg" alt="avatar" >
+			</div>
+		</header>
+		<main class="main">
+			<h1 class="title animated fadeInRight delay-1s">Бэтмен</h1>
+			<small class="title-en animated fadeInRight">The Batman</small>
+			<div class="info">
+				<div class="movie-info animated fadeInUp delay-2s">
+					<span class="tag">Фильм</span>
+					<span class="contry">США 2021 год</span>
+					<a data-fancybox href="https://www.youtube.com/watch?v=8SOyHktrjGE" class="play">Смотреть трейлер</a>
+				</div>
+				<a href="#more" class="more">Подробней</a>
+			</div>
 
-         <div class="content">
-            <div class="short-info">
-               <img src="./img/cover.jpg" alt="poster" class="poster">
-               <button class="button">Буду смотреть</button>
-               <h3 class="actor_title">В главных ролях</h3>
-               <ul class="actors-list">
-                  <li class="actors-list-title">Роберт Паттинсон</li>
-                  <li class="actors-list-title">Зои Кравиц</li>
-                  <li class="actors-list-title">Колин Фаррелл</li>
-                  <li class="actors-list-title">Питер Сарсгаард</li>
-                  <li class="actors-list-title">Пол Дано</li>
-                  <li class="actors-list-title">Энди Серкис</li>
-                  <li class="actors-list-title">Джеффри Райт</li>
-                  <li class="actors-list-title">Джон Туртурро</li>
-                  <li class="actors-list-title">Макс Карвер</li>
-                  <li class="actors-list-title">Кон О’Нилл</li>
-               </ul>
-            </div>
-            <div class="full-info">
-               <nav class="tabs">
-                  <a href="#about" class="tabs-item tabs-item-active">Oписание</a>
-                  <a href="#reviews" class="tabs-item">Рецензии</a>
-                  <a href="#premieres" class="tabs-item">Премьеры</a>
-                  <a href="#actors" class="tabs-item">Актеры</a>
-                  <a href="#awards" class="tabs-item">Награды</a>
-                  <a href="#facts" class="tabs-item">Факты</a>
-                  <a href="#web" class="tabs-item">Сайты</a>
-                  <a href="#" class="tabs-item">
-                     <img src="./img/bookmark-icon.svg" alt="" class="bookmark-added">
-                  </a>
-               </nav>
+			<div class="content">
+				<div class="short-info">
+					<img src="./img/cover.jpg" alt="poster" class="poster">
+					<button class="button">Буду смотреть</button>
+					<h3 class="actor_title">В главных ролях</h3>
+					<ul class="actors-list">
+						<li class="actors-list-title">Роберт Паттинсон</li>
+						<li class="actors-list-title">Зои Кравиц</li>
+						<li class="actors-list-title">Колин Фаррелл</li>
+						<li class="actors-list-title">Питер Сарсгаард</li>
+						<li class="actors-list-title">Пол Дано</li>
+						<li class="actors-list-title">Энди Серкис</li>
+						<li class="actors-list-title">Джеффри Райт</li>
+						<li class="actors-list-title">Джон Туртурро</li>
+						<li class="actors-list-title">Макс Карвер</li>
+						<li class="actors-list-title">Кон О’Нилл</li>
+					</ul>
+				</div>
+				<div class="full-info">
+					<nav class="tabs">
+						<a href="#about" class="tabs-item tabs-item-active">Oписание</a>
+						<a href="#reviews" class="tabs-item">Рецензии</a>
+						<a href="#premieres" class="tabs-item">Премьеры</a>
+						<a href="#actors" class="tabs-item">Актеры</a>
+						<a href="#awards" class="tabs-item">Награды</a>
+						<a href="#facts" class="tabs-item">Факты</a>
+						<a href="#web" class="tabs-item">Сайты</a>
+						<a href="#" class="tabs-item">
+							<img src="./img/bookmark-icon.svg" alt="" class="bookmark-added">
+						</a>
+					</nav>
 
-               <div class="full-content">
-                  <div class="tabs-content" id="reviews">
-                     <p class="text">Тут скоро появлятся рецензии</p>
-                  </div>
-                  <div class="tabs-content" id="premieres">
-                     <p class="text">Тут скоро появлятся Премьеры</p>
-                  </div>
-                  <div class="tabs-content" id="actors">
-                     <p class="text">Тут скоро появлятся Актеры</p>
-                  </div>
-                  <div class="tabs-content" id="awards">
-                     <p class="text">Тут скоро появлятся Награды</p>
-                  </div>
-                  <div class="tabs-content" id="facts">
-                     <p class="text">Тут скоро появлятся Факты</p>
-                  </div>
-                  <div class="tabs-content" id="web">
-                     <p class="text">Тут скоро появлятся Сайты</p>
-                  </div>
-                  <div class="tabs-content visible" id="about">
-                     <p class="text">Предстоящий американский супергеройский фильм,
-                         основанный на одноимённых комиксах издательства DC Comics.
-                          Картина будет выпущена компанией Warner Bros.
-                           и будет перезагрузкой всех фильмов о Бэтмене.</p>
-                     <p class="text">Предстоящий американский супергеройский фильм, основанный на одноимённых комиксах издательства DC Comics. Картина будет выпущена компанией Warner Bros. и будет перезагрузкой всех фильмов о Бэтмене.</p>
-                     <h4 class="text-title">Разработка</h4>
-                     <p class="text">В октябре 2014 года студия Warner Bros. объявила, что в разработке находится сольный фильм о Бэтмене, роль которого вновь исполнит Бен Аффлек. В июле 2015 года сообщалось, что Аффлек ведёт переговоры со студией по поводу постановки фильма и совместного написания сценария с Джеффом Джонсом. </p>
-                     <p class="text">После выхода фильма «Бэтмен против Супермена: На заре справедливости» руководитель агентства WME Патрик Уайтсел подтвердил, что Аффлек написал сценарий для сольного фильма о Бэтмене и в настоящий момент его рассматривают студия и DC. В мае 2016 года Джереми Айронс подтвердил, что он появится в фильме про Тёмного Рыцаря. </p>
-                     <p class="text">На Comic-Con в Сан-Диего в июле 2016 года было официально подтверждено, что Аффлек станет режиссёром картины. В августе 2016 года на одной из страниц Аффлека в социальных сетях был опубликован тестовый материал, в котором был показан персонаж Детстроук. 8 сентября 2016 года Джефф Джонс подтвердил, что Джо Манганьелло сыграет наёмника Слейда Уилсона, который, возможно, станет главным злодеем фильма.</p>
-                  </div>
-                  <div class="subscribe">
-                     <h3 class="subscribe-title">Подпишитесь на обновления</h3>
-                     <form action="#" class="subscribe_form">
+					<div class="full-content">
+						<div class="tabs-content" id="reviews">
+							<p class="text">Тут скоро появлятся рецензии</p>
+						</div>
+						<div class="tabs-content" id="premieres">
+							<p class="text">Премьера в США: 25 июня 2021 г.</p>
+							<p class="text">Премьера в Украине: 24 июля 2021 г.</p>
+						</div>
+						<div class="tabs-content" id="actors">
+							<div class="actor">
+								<a href="
+								https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%82%D1%82%D0%B8%D0%BD%D1%81%D0%BE%D0%BD,_%D0%A0%D0%BE%D0%B1%D0%B5%D1%80%D1%82" 
+								class="name-actor"  target="blank">Роберт Паттинсон <span class="name-eng">(Robert Pattinson)</span></a> 
+								<h2 class="role">Bruce Wayne / Batman</h2>
+								<div class="info-actor">
+									<img src="./img/actors/Robert Pattinson.jpg" alt="Robert Pattinson" class="photo-actor">
+									<p class="text">
+										Родился Роберт в Лондоне 13 мая 1986 года. Кроме него в семье воспитывалось еще два ребенка. Его мать работала в модельном агентстве, что, возможно, повлияло на биографию Роберта Паттинсона. В двенадцатилетнем возрасте занялся модельной карьерой. В том же возрасте сыграл небольшую роль в театре и по неизвестным широкой публике причинам был выгнан из школы. В то время Роберт был долговязым и не отличался развитой мускулатурой, но был очень востребован как модель. Через несколько лет внешность актера стала более мужественной, но, не смотря на это, модельная карьера пошла на убыль. Уже став знаменитым актером, в 2007 году Роберт принял участие в показе мод «Hackett’s».
+										Актер обладает выразительной и необычной внешностью. На всех фото в биографии Роберта Паттинсона самым эпатажным, привлекающим внимание элементом является его взъерошенная прическа.
+										Значительно повысить актерский уровень Роберту удалось в 15 лет, когда его пригласили в театр Барнса (Barnes Theatre Club). Там он играл в постановках: «Macbeth», «Anything Goes», «Tess of the D’Urbevilles». Первую роль в кино Паттинсон сыграл в 2004 году (роль второго плана в фильме «Кольцо Нибелунгов»). Тогда же снялся в фильме «Ярмарка тщеславия».
+										Широкую популярность получил после роли Седрика Диггори в ленте «Гарри Поттер и Кубок Огня». Актерским прорывом в биографии актера Роберта Паттинсона стал фильм «Сумерки» по книге Стефани Майер. В фильме Роберт играет Эдварда Каллена – вампира, который влюбляется в обычную девушку Беллу (Кристен Стюарт). Роберт снялся также в следующих фильмах по романам Майер «Новолуние», «Затмение», «Рассвет».
+										Отличные актерские данные позволяют Роберту с успехом справляться с абсолютно разноплановыми ролями. Так актер превосходно сыграл Сальвадора Дали в независимой ленте «Мелкие останки». Среди других работ Роберта фильмы: «Преследователь Тоби Джагга», «Справочник плохой матери», «Как быть» (за роль получил звание лучшего актера на Страсбургском кинофестивале в 2008), «Летний домик». Пока что в полной биографии Роберта Паттинсона насчитывается не слишком много ролей. Но учитывая, что актерская карьера Роберта началась недавно, его статус звезды – большое достижение.
+										Также Роберт увлекается музыкой: играет на синтезаторе, гитаре, поет, является участником группы «Bad Girls». Роберт исполнил две песни к фильму «Сумерки»: «Never Think» (написана Робертом в соавторстве с Сэмом Брэдли), «Let Me Sign». В 2008 году возглавил рейтинг самых привлекательных мужчин по версии журнала «People», а в 2009 – по версии «Glamour».
+										</p>
+								</div>
+							</div>
+							<div class="actor">
+								<a href="
+								https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%BA%D0%B8%D1%81,_%D0%AD%D0%BD%D0%B4%D0%B8" 
+								class="name-actor"  target="blank">Энди Серкис <span class="name-eng">(Andy Serkis)</span></a> 
+								<h2 class="role">Alfred Pennyworth</h2>
+								<div class="info-actor">
+									<img src="./img/actors/Andy_Serkis.jpg" alt="Robert Pattinson" class="photo-actor">
+									<p class="text">
+										Родился 20 апреля 1964 года в Лондоне. Его отец был врачом, а мать работала учителем в школе для отсталых детей. С раннего детства Энди увлекался живописью и хотел стать художником, однако, окончив школу и поступив в Ланкастерский университет, он начал проявлять интерес к театру и вскоре стал играть в ланкастерском театре «Дюкс». Театральная карьера Серкиса активно развивалась, и в последующие годы он играл на сценах многих известных театров, исполняя ключевые роли в таких постановках, как «Король Лир», «Отелло», «Сон в летнюю ночь», «Макбет» и «Фауст».
+										В 1994-м году Энди дебютировал и в кино, сыграв в фильме «Принц Ютландии». Затем он отметился в картинах «Оливер Твист», «Арабские приключения», «Карьеристки», «Среди 										гигантов», «Пандемониум», «Билли-Фингал», «Мститель». Но наиболее заметной ролью того периода стала работа над лентой «Властелин колец», где он помогал создавать компьютерного 										персонажа Голлума. Ради этой роли Серкису пришлось играть в специальном костюме, оснащенном множеством датчиков.
+										Другими успешными фильмами с его участием стали триллер «Проклятые», блокбастер «Кинг Конг», вышедший в 2005-м году, в котором Энди, вновь используя компьютерные технологии, 										сыграл самого Кинг Конга. В 2006-м году свет увидела картина «Престиж», которая была хорошо принята зрителями, после чего Серкис сыграл в фильмах «Сила искусства» и «Громобой».
+										Еще большая известность пришла к Энди после выхода в 2007-м году телевизионного фильма «Лонгфорд», за исполнение роли в котором он был номинирован на премию «Золотой глобус». 										А в 2008-м году он сыграл самого Альберта Эйнштейна в телефильме «Эйнштейн и Эддингтон». В том же году вышла картина «Чернильное сердце», а чуть позднее «Секс, наркотики и 										рок-н-ролл». Среди последних работ актера можно отметить ленты «Восстание планеты обезьян» и «Смерть супергероя», кроме того он озвучил персонажей в мультфильмах «Озвучка 										Приключения Тинтина: Тайна Единорога» и «Секретная служба Санта-Клауса». В настоящее время Серкис участвует в съемках фильма «Хоббит».
+
+										</p>
+								</div>
+							</div>
+
+
+						</div>						
+						<div class="tabs-content" id="awards">
+							<p class="text">Тут скоро появлятся Награды</p>
+						</div>
+						<div class="tabs-content" id="facts">
+							<p class="text">Тут скоро появлятся Факты</p>
+						</div>
+						<div class="tabs-content" id="web">
+							<p class="text">Тут скоро появлятся Сайты</p>
+						</div>
+						<div class="tabs-content visible" id="about">
+							<p class="text"> <a  name="more"></a> Предстоящий американский супергеройский фильм,
+								 основанный на одноимённых комиксах издательства DC Comics.
+								  Картина будет выпущена компанией Warner Bros.
+									и будет перезагрузкой всех фильмов о Бэтмене.</p>
+							<p class="text">Предстоящий американский супергеройский фильм, основанный на одноимённых комиксах издательства DC Comics. Картина будет выпущена компанией Warner Bros. и будет перезагрузкой всех фильмов о Бэтмене.</p>
+							<h4 class="text-title">Разработка</h4>
+							<p class="text">В октябре 2014 года студия Warner Bros. объявила, что в разработке находится сольный фильм о Бэтмене, роль которого вновь исполнит Бен Аффлек. В июле 2015 года сообщалось, что Аффлек ведёт переговоры со студией по поводу постановки фильма и совместного написания сценария с Джеффом Джонсом. </p>
+							<p class="text">После выхода фильма «Бэтмен против Супермена: На заре справедливости» руководитель агентства WME Патрик Уайтсел подтвердил, что Аффлек написал сценарий для сольного фильма о Бэтмене и в настоящий момент его рассматривают студия и DC. В мае 2016 года Джереми Айронс подтвердил, что он появится в фильме про Тёмного Рыцаря. </p>
+							<p class="text">На Comic-Con в Сан-Диего в июле 2016 года было официально подтверждено, что Аффлек станет режиссёром картины. В августе 2016 года на одной из страниц Аффлека в социальных сетях был опубликован тестовый материал, в котором был показан персонаж Детстроук. 8 сентября 2016 года Джефф Джонс подтвердил, что Джо Манганьелло сыграет наёмника Слейда Уилсона, который, возможно, станет главным злодеем фильма.</p>
+						</div>
+						<div class="subscribe">
+							<div  id="music"></div>
+							<h3 class="subscribe-title">Подпишитесь на обновления</h3>
+							<form action="#" class="subscribe_form">
 								<input type="text" class="subscribe-input" placeholder="Ваш email">
 								<button class="subscribe-button">
 									<img src="./img/check.svg" alt="check">
 								</button>
-                     </form>
-                     <a href="#" class="banner">
-                        <img src="./img/banner.jpg" alt="banner" class="banner-img">
-                     </a>
-                  </div>
+							</form>
+							<a href="#" class="banner">
+								<img src="./img/banner.jpg" alt="banner" class="banner-img">
+							</a>
+						</div>
 
-               </div>
-            </div>
-            <!-- /.full-info -->
-         </div>
-      </main>
-   </div>
-   <!-- /.container -->
-   <!-- Подключаем библиотеку jQuery -->
-   <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-   <!-- Подключаем Fancybox -->
-   <script src="./js/jquery.fancybox.min.js"></script>
-   <script src="./js/main.js"></script>
-   <!-- <script src="script.js"></script> -->
+					</div>
+				</div>
+				<!-- /.full-info -->
+			</div>
+		</main>
+	</div>
+	<!-- /.container -->
+
+	<!-- Подключаем библиотеку jQuery -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+		<!-- Подключаем Fancybox -->
+		<script src="./js/jquery.fancybox.min.js"></script>
+
+	<!-- Подключение скриптов JS -->
+	<script src="./js/music.js"></script>
+	<script src="./js/main.js"></script>
+	<!-- <script src="./js/test.js"></script> -->
+
 </body>
 </html>

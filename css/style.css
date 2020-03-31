@@ -192,7 +192,6 @@ body {
 	margin: 0;
 	list-style: none;
 	padding-left: 15px;
-	text-decoration: underline;
 	line-height: 150%;
 }
 
@@ -205,7 +204,7 @@ body {
 }
 .tabs-content {
 	display: none;
-	margin-right: 70px;
+	margin-right: 30px;
 }
 .visible {
 	display: block;
@@ -239,8 +238,15 @@ object-fit: cover;
 	line-height: 140%;
 	margin-top: 0;
 }
+
+figure {
+	margin: 0;
+	margin-bottom: 15px;
+}
+
 .subscribe_form {
 	display: flex;
+	width: 100%;
 	margin-bottom: 48px;
 }
 .subscribe-title {
@@ -267,6 +273,29 @@ object-fit: cover;
 	padding: 12px;
 	margin-left: -35px;
 }
+
+/* Actors */
+.name-actor {
+	text-decoration: none;
+	font-size: 18px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.name-eng, 
+.role {
+	font-size: 16px;
+	color: #000000;
+	font-weight: normal;
+}
+.photo-actor {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
 
 
 @media (max-width: 1200px) {
@@ -386,3 +415,4 @@ object-fit: cover;
 			height: auto;
 		}
 	}
+
