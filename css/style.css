@@ -242,9 +242,20 @@ object-fit: cover;
 figure {
 	margin: 0;
 	margin-bottom: 15px;
+	position: fixed;
+	top: 0;
+	right: 4%;
+	display: flex;
+	flex-direction: row-reverse;
+	align-self: center;
+	padding: 10px;
+
 }
-#audio{
-	display: none;
+audio{
+	display: none;	
+}
+figure:hover audio {
+	display: block;
 }
 .subscribe_form {
 	display: flex;

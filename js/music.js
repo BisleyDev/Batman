@@ -10,8 +10,8 @@ const createMusic = (track, nameTrack) => {
    const MusicBlock = document.createElement('div');
    MusicBlock.innerHTML = 
    `<figure>
-      <figcaption>You listen to the ${nameTrack}:</figcaption>
-      <audio autoplay src="${track}"></audio>
+      <figcaption>You listen to the:<br> ${nameTrack}</figcaption>
+      <audio autoplay controls src="${track}"></audio>
    </figure>`
    return MusicBlock;
 }
