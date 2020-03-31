@@ -243,7 +243,9 @@ figure {
 	margin: 0;
 	margin-bottom: 15px;
 }
-
+#audio{
+	display: none;
+}
 .subscribe_form {
 	display: flex;
 	width: 100%;
